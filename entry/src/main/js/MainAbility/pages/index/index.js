@@ -29,7 +29,7 @@ export default {
                     that.bgColor = `rgb(${val}, ${val}, ${val})`;
                 },
                 fail: (data, code) => {
-                    console.error('Sensor error: ' + code);
+                    console.error(`Sensor error: ${code}`);
                 }
             });
         }, 300);

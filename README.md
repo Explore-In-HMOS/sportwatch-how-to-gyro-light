@@ -4,12 +4,12 @@
 
 This application demonstrates motion-controlled screen brightness for HarmonyOS Lite Wearable devices. It uses the accelerometer sensor to detect arm tilt and dynamically adjusts the screen's background color from black to white, creating a hands-free display control experience.
 
-## Preview
+# Preview
 <div>
   <img src='screenshots/gyrolight-1.png' width='25%' />
 </div>
 
-## Use Cases
+# Use Cases
 
 * **Motion-Controlled Display:** Adjust screen brightness by raising or lowering your arm, useful for quick visibility adjustments without touching the screen.
 * **Gesture-Based Interface:** Demonstrates natural interaction patterns for wearable devices using body motion.
@@ -17,7 +17,7 @@ This application demonstrates motion-controlled screen brightness for HarmonyOS 
 * **Learning & Experimentation:** Developers can use this as a practical example to understand HarmonyOS Lite Wearable sensor APIs and motion-based interactions.
 
 
-## Tech Stack
+# Tech Stack
 
 * **Languages:** JavaScript
 * **Frameworks:** HarmonyOS SDK 5.0.0 (API 12)
@@ -25,7 +25,7 @@ This application demonstrates motion-controlled screen brightness for HarmonyOS 
 * **APIs:** `@system.sensor` (Accelerometer)
 
 
-## Project Directory
+# Directory Structure
 
 ```
 entry/src/main/
@@ -39,7 +39,7 @@ entry/src/main/
 ```
 
 
-## Constraints and Restrictions
+# Constraints and Restrictions
 
 ## Supported Device
   - Huawei Sport (Lite) Watch GT 4/5/6
@@ -48,13 +48,13 @@ entry/src/main/
   - Huawei Sport (Lite) D2
   - Huawei Sport (Lite) Ultimate
 
-### Limitations
+## Limitations
 
 * Calibration resets on app restart; neutral position is set when app launches.
 * Background execution not supported on Lite Wearable devices.
 
 
-## License
+# License
 GyroLight is distributed under the terms of the MIT License.
 
 See the [LICENSE](/LICENSE) for more information.

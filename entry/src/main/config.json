@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.gyrolight",
+    "bundleName": "com.hmosdemos.lite_wearable.sportwatch_howto_gyro_light",
     "vendor": "hmosdemos",
     "version": {
       "code": 1000000,
